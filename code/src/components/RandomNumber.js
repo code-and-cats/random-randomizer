@@ -16,6 +16,7 @@ const handleNumber = (event) => {
 
 return (
     <div>
+        <h2>More choices randomizer</h2>
         <input
         name="range"
         type="range"

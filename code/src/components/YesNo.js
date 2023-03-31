@@ -10,6 +10,7 @@ const handleYesNoClick = () => {
 
 return (
     <div>
+        <h2>Two choices randomizer</h2>
         <div>{xOrY}</div>
         <button onClick={handleYesNoClick}>Generate!</button>
     </div>
