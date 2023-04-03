@@ -7,3 +7,37 @@ main {
   grid-template-rows: 1fr 1fr;
   gap: 2rem;
 }
+
+.two-choices-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.yes-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.no-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.more-choices-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}

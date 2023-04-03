@@ -24,9 +24,9 @@ return (
         max="10"
         onChange={handleNumber}
         value={chosenNumber} />
-        <p>{chosenNumber}</p>
-        <button onClick={generateNumber}>Click me</button>
         {randomNumber ? <p>{randomNumber}</p> : null}
+        <button onClick={generateNumber}>Click me</button>
+        <p>{chosenNumber}</p>
     </div>
 )
 }
