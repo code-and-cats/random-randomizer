@@ -6,7 +6,7 @@ const [chosenNumber, setChosenNumber] = useState(1)
 const [randomNumber, setRandomNumber] = useState(0)
 
 const generateNumber = () => {
-    const random = Math.floor(Math.random() * chosenNumber)
+    const random = Math.floor(Math.random() * chosenNumber) +1;
     setRandomNumber(random);
 }
 
