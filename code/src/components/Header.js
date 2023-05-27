@@ -35,7 +35,7 @@ const Header = () => {
     <StyledHeader>
       <StyledH1>Vios random randomizer</StyledH1>
       <StyledSmallP>For when choices need to be made.</StyledSmallP>
-      <StyledH2>Click the circle to generate your choice! </StyledH2>
+      <StyledH2>Tap the circle to generate your choice! </StyledH2>
       <StyledP>1 for no. 2 for yes.</StyledP>
     </StyledHeader>
   )
