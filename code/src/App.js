@@ -19,7 +19,7 @@ const App = () => {
       setXOrY(randomGenerator)
       //removing loading again
       setLoading(false)
-    }, 2000)
+    }, 1500)
   }
 
   return (
